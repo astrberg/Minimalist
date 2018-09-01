@@ -40,7 +40,6 @@ terminal-font: "DejaVu Sans Bold 10"
 
   fg_color = "black"
   bg_color = "white"
-
   border_color = "black"
 
 
