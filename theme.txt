@@ -1,0 +1,63 @@
+#global
+title-text: ""
+desktop-image: "sunset.png"
+terminal-font: "DejaVu Sans Bold 10"
+
+#boot
++ boot_menu {
+  left = 47%
+  width = 100
+  top = 35%
+  height = 30
+
+  item_font = "DejaVu Sans Bold 10"
+  item_color = "white"
+  item_height = 40
+  item_padding = 10
+  item_icon_space = 15
+  item_spacing = 15
+
+  selected_item_font = "DejaVu Sans Bold 12"
+  selected_item_color= "black"
+
+  icon_height = 40
+  icon_width = 40
+
+  scrollbar = false
+
+}
+#progress
++ progress_bar {
+  id = "__timeout__"
+
+  left = 15%
+  top = 85%
+  height = 15
+  width = 70%
+  
+  text = "@TIMEOUT_NOTIFICATION_LONG@"
+  font = "DejaVu Sans Regular 10"
+
+  fg_color = "black"
+  bg_color = "white"
+
+  border_color = "black"
+
+
+  
+}
+
+#label
++ label {
+        left = 35%
+        top = 90%
+        height = 30
+        width = 600
+      
+        color = "white"
+      
+        align = "center"
+      
+        text = "@KEYMAP_SHORT@"
+}
+
